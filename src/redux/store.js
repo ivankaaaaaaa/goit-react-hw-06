@@ -10,11 +10,11 @@ import {
   REGISTER,
   REHYDRATE,
 } from "redux-persist/es/constants";
-import filterSlice from "./filtersSlice";
+import filtersSlice from "./filtersSlice";
 
 const rootReducer = combineReducers({
   contacts: contactSlice,
-  filter: filterSlice,
+  filter: filtersSlice,
 });
 
 const persistConfig = {
