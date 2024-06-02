@@ -5,38 +5,74 @@
   text-align: center;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #666;
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
 }
 
-.card {
-  padding: 2em;
+.formContainer {
+  margin-bottom: 20px;
 }
 
-.read-the-docs {
-  color: #888;
+.searchBoxContainer {
+  margin-bottom: 20px;
+}
+
+.searchBoxInput {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.contactList {
+  list-style: none;
+  padding: 0;
+}
+
+.contactItem {
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #f9f9f9;
+}
+
+.contactName {
+  font-weight: bold;
+}
+
+.contactNumber {
+  color: #666;
+}
+
+.deleteButton {
+  background-color: #dc3545;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.deleteButton:hover {
+  background-color: #c82333;
 }
